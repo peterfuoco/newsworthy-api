@@ -52,27 +52,27 @@ answer: false,
 correctExp: "Correct! Consider the source and look up the author when in doubt",
 incorrectExp: "Incorrect! Consider the source and look up the author when in doubt"
 },
-# {
-# title: "question7",
-# image: "https://i.imgur.com/H2iIQjH.png",
-# answer: false,
-# correctExp: "Correct! Note there is no author, check your bias, and look up the source to see it's satire",
-# incorrectExp: "Incorrect! Note there is no author, check your bias, and look up the source to see it's satire"
-# },
 {
 title: "question7",
-image: "https://cdn.pixabay.com/photo/2016/01/08/11/57/butterfly-1127666__340.jpg",
+image: "https://i.imgur.com/H2iIQjH.png",
 answer: false,
-correctExp: "for question 3, this is correct and for these reasons",
-incorrectExp: "for question 3, this is incorrect and for these reasons"
+correctExp: "Correct! Note there is no author, check your bias, and look up the source to see it's satire",
+incorrectExp: "Incorrect! Note there is no author, check your bias, and look up the source to see it's satire"
 },
-{
-title: "question8",
-image: "https://cdn.pixabay.com/photo/2016/01/08/11/57/butterfly-1127666__340.jpg",
-answer: false,
-correctExp: "for question 3, this is correct and for these reasons",
-incorrectExp: "for question 3, this is incorrect and for these reasons"
-},
+# {
+# title: "question7",
+# image: "https://cdn.pixabay.com/photo/2016/01/08/11/57/butterfly-1127666__340.jpg",
+# answer: false,
+# correctExp: "for question 3, this is correct and for these reasons",
+# incorrectExp: "for question 3, this is incorrect and for these reasons"
+# },
+# {
+# title: "question8",
+# image: "https://cdn.pixabay.com/photo/2016/01/08/11/57/butterfly-1127666__340.jpg",
+# answer: false,
+# correctExp: "for question 3, this is correct and for these reasons",
+# incorrectExp: "for question 3, this is incorrect and for these reasons"
+# },
 ])
 
 # User.create([
