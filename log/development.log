@@ -9015,3 +9015,270 @@ Processing by QuestionsController#index as HTML
 Completed 200 OK in 63ms (Views: 15.7ms | ActiveRecord: 33.2ms | Allocations: 8103)
 
 
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 12:31:05 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 8.0ms | ActiveRecord: 3.9ms | Allocations: 8011)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 12:32:08 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (63.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 65ms (Views: 1.9ms | ActiveRecord: 63.2ms | Allocations: 963)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 12:32:08 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (1.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 1.3ms | Allocations: 963)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 12:32:26 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (118.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 121ms (Views: 1.8ms | ActiveRecord: 118.6ms | Allocations: 963)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Create (1.6ms)[0m  [1m[32mINSERT INTO "questions" ("title", "image", "created_at", "updated_at", "answer", "correctExp", "incorrectExp") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "question2"], ["image", "https://i.imgur.com/RftSKpm.jpg"], ["created_at", "2019-09-17 17:54:24.258243"], ["updated_at", "2019-09-17 17:54:24.258243"], ["answer", true], ["correctExp", "Correct! CBC is a reliable source"], ["incorrectExp", "Incorrect! CBC is a reliable source"]]
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 13:54:46 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 7.7ms | ActiveRecord: 5.0ms | Allocations: 8172)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 13:57:34 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (7.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 2.5ms | ActiveRecord: 7.3ms | Allocations: 1123)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 14:06:35 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.0ms | Allocations: 1196)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Create (0.5ms)[0m  [1m[32mINSERT INTO "questions" ("title", "image", "created_at", "updated_at", "answer", "correctExp", "incorrectExp") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "question3"], ["image", "https://i.imgur.com/cAx5i4Y.jpg"], ["created_at", "2019-09-17 18:07:39.589320"], ["updated_at", "2019-09-17 18:07:39.589320"], ["answer", true], ["correctExp", "Correct! One clue is that multiple journalists are credited in the article"], ["incorrectExp", "Incorrect! One clue is that multiple journalists are credited in the article"]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 14:07:47 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 7.3ms | ActiveRecord: 3.8ms | Allocations: 8332)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (5.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (206.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "valyou_api_development"[0m
+  [1m[35m (197.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "valyou_api_test"[0m
+  [1m[35m (479.7ms)[0m  [1m[35mCREATE DATABASE "valyou_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (464.1ms)[0m  [1m[35mCREATE DATABASE "valyou_api_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "questions" CASCADE[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "questions" ("id" bigserial primary key, "title" character varying, "image" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "answer" boolean, "correctExp" character varying, "incorrectExp" character varying)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "results" CASCADE[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE "results" ("id" bigserial primary key, "user_id" bigint NOT NULL, "question_id" bigint NOT NULL, "user_result" boolean, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "answer_result" boolean)[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE  INDEX  "index_results_on_question_id" ON "results"  ("question_id")[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_results_on_user_id" ON "results"  ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "password" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.8ms)[0m  [1m[35mALTER TABLE "results" ADD CONSTRAINT "fk_rails_22fba6da2b"
+FOREIGN KEY ("question_id")
+  REFERENCES "questions" ("id")
+[0m
+  [1m[35m (1.0ms)[0m  [1m[35mALTER TABLE "results" ADD CONSTRAINT "fk_rails_7f0d5a2cd6"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190916185312)[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190910184409),
+(20190910185005),
+(20190910195806),
+(20190910201541),
+(20190916142512),
+(20190916151521),
+(20190916183720);
+
+[0m
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-17 18:10:17.596309"], ["updated_at", "2019-09-17 18:10:17.596309"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "968d2952775650f9a7bbae625d1f25f7a51a4f54"], ["created_at", "2019-09-17 18:10:17.616203"], ["updated_at", "2019-09-17 18:10:17.616203"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "questions" CASCADE[0m
+  [1m[35m (4.8ms)[0m  [1m[35mCREATE TABLE "questions" ("id" bigserial primary key, "title" character varying, "image" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "answer" boolean, "correctExp" character varying, "incorrectExp" character varying)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "results" CASCADE[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "results" ("id" bigserial primary key, "user_id" bigint NOT NULL, "question_id" bigint NOT NULL, "user_result" boolean, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "answer_result" boolean)[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE  INDEX  "index_results_on_question_id" ON "results"  ("question_id")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX  "index_results_on_user_id" ON "results"  ("user_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "password" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (2.0ms)[0m  [1m[35mALTER TABLE "results" ADD CONSTRAINT "fk_rails_22fba6da2b"
+FOREIGN KEY ("question_id")
+  REFERENCES "questions" ("id")
+[0m
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "results" ADD CONSTRAINT "fk_rails_7f0d5a2cd6"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190916185312)[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190910184409),
+(20190910185005),
+(20190910195806),
+(20190910201541),
+(20190916142512),
+(20190916151521),
+(20190916183720);
+
+[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-17 18:10:17.682749"], ["updated_at", "2019-09-17 18:10:17.682749"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-09-17 18:10:17.688546"], ["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "968d2952775650f9a7bbae625d1f25f7a51a4f54"], ["created_at", "2019-09-17 18:10:17.693537"], ["updated_at", "2019-09-17 18:10:17.693537"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Create (0.5ms)[0m  [1m[32mINSERT INTO "questions" ("title", "image", "created_at", "updated_at", "answer", "correctExp", "incorrectExp") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "question1"], ["image", "https://i.imgur.com/ggg5Frq.jpg"], ["created_at", "2019-09-17 18:10:17.736090"], ["updated_at", "2019-09-17 18:10:17.736090"], ["answer", false], ["correctExp", "Correct! Social media is common source of fake news. This news website is also satirical"], ["incorrectExp", "Incorrect! Social media is common source of fake news. This news website is also satirical"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Create (0.2ms)[0m  [1m[32mINSERT INTO "questions" ("title", "image", "created_at", "updated_at", "answer", "correctExp", "incorrectExp") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "question2"], ["image", "https://i.imgur.com/RftSKpm.jpg"], ["created_at", "2019-09-17 18:10:17.740720"], ["updated_at", "2019-09-17 18:10:17.740720"], ["answer", true], ["correctExp", "Correct! CBC is a reliable source"], ["incorrectExp", "Incorrect! CBC is a reliable source"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Create (0.2ms)[0m  [1m[32mINSERT INTO "questions" ("title", "image", "created_at", "updated_at", "answer", "correctExp", "incorrectExp") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "question3"], ["image", "https://i.imgur.com/ojz0Jcf.jpg"], ["created_at", "2019-09-17 18:10:17.744124"], ["updated_at", "2019-09-17 18:10:17.744124"], ["answer", true], ["correctExp", "Correct! One clue is that multiple journalists are credited in the article, and there's a video supporting source"], ["incorrectExp", "Incorrect! One clue is that multiple journalists are credited in the articleand there's a video supporting source"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 14:10:25 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 8.3ms | ActiveRecord: 4.4ms | Allocations: 8332)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Create (0.5ms)[0m  [1m[32mINSERT INTO "questions" ("title", "image", "created_at", "updated_at", "answer", "correctExp", "incorrectExp") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "question4"], ["image", "https://i.imgur.com/Y2Ywj1S.png"], ["created_at", "2019-09-17 18:30:13.449437"], ["updated_at", "2019-09-17 18:30:13.449437"], ["answer", false], ["correctExp", "Correct! Consider the source (tabloid newspaper) and the language used to describe the story"], ["incorrectExp", "Incorrect! Consider the source (tabloid newspaper) and the language used to describe the story"]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 14:30:48 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 12.7ms | ActiveRecord: 3.5ms | Allocations: 8492)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Create (0.5ms)[0m  [1m[32mINSERT INTO "questions" ("title", "image", "created_at", "updated_at", "answer", "correctExp", "incorrectExp") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "question5"], ["image", "https://i.imgur.com/wXntU3i.png"], ["created_at", "2019-09-17 18:39:21.541150"], ["updated_at", "2019-09-17 18:39:21.541150"], ["answer", true], ["correctExp", "Correct! Consider the source and check your bias when assessing a story"], ["incorrectExp", "Incorrect! Consider the source and check your bias when assessing a story"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 14:39:55 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 10.7ms | ActiveRecord: 7.2ms | Allocations: 8653)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Create (0.5ms)[0m  [1m[32mINSERT INTO "questions" ("title", "image", "created_at", "updated_at", "answer", "correctExp", "incorrectExp") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "question6"], ["image", "https://i.imgur.com/SuTA6Co.jpg"], ["created_at", "2019-09-17 18:52:26.299298"], ["updated_at", "2019-09-17 18:52:26.299298"], ["answer", false], ["correctExp", "Correct! Consider the source and look up the author when in doubt"], ["incorrectExp", "Incorrect! Consider the source and look up the author when in doubt"]]
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 14:52:31 -0400
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 13.1ms | ActiveRecord: 5.0ms | Allocations: 8813)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Create (1.5ms)[0m  [1m[32mINSERT INTO "questions" ("title", "image", "created_at", "updated_at", "answer", "correctExp", "incorrectExp") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "question7"], ["image", "https://i.imgur.com/H2iIQjH.png"], ["created_at", "2019-09-17 19:00:29.638574"], ["updated_at", "2019-09-17 19:00:29.638574"], ["answer", false], ["correctExp", "Correct! Note there is no author, check your bias, and look up the source to see it's satire"], ["incorrectExp", "Incorrect! Note there is no author, check your bias, and look up the source to see it's satire"]]
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for ::1 at 2019-09-17 15:01:19 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/peterfuoco/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/peterfuoco/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.9ms | Allocations: 308)
+Completed 200 OK in 24ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 1516)
+
+
+Started GET "/favicon.ico" for ::1 at 2019-09-17 15:01:19 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 15:01:20 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (39.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 66ms (Views: 9.3ms | ActiveRecord: 48.9ms | Allocations: 9052)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 15:01:29 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.6ms | Allocations: 1924)
+
+
