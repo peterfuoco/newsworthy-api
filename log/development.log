@@ -8993,3 +8993,25 @@ Processing by QuestionsController#index as HTML
 Completed 200 OK in 13ms (Views: 7.4ms | ActiveRecord: 3.6ms | Allocations: 8012)
 
 
+Started GET "/" for ::1 at 2019-09-17 12:07:33 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/peterfuoco/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/peterfuoco/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.8ms | Allocations: 308)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 1517)
+
+
+Started GET "/" for ::1 at 2019-09-17 12:07:45 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/peterfuoco/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/peterfuoco/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.7ms | Allocations: 192)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 705)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 12:13:18 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (16.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 63ms (Views: 15.7ms | ActiveRecord: 33.2ms | Allocations: 8103)
+
+

@@ -14,8 +14,8 @@ Question.create([
 title: "question1",
 image: "https://i.imgur.com/ggg5Frq.jpg",
 answer: false,
-correctExp: "Correct. Social media is commony source of fake news. This website is also satirical",
-incorrectExp: "Incorrect. Social media is commony source of fake news. This website is also satirical"
+correctExp: "Correct. Social media is common source of fake news. This website is also satirical",
+incorrectExp: "Incorrect. Social media is common source of fake news. This website is also satirical"
 }
 # {
 # title: "question2",
