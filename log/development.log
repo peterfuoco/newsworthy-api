@@ -9282,3 +9282,38 @@ Processing by QuestionsController#index as HTML
 Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.6ms | Allocations: 1924)
 
 
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 15:06:02 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 1924)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 15:06:30 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1924)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 15:06:41 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.5ms | Allocations: 1907)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 15:08:58 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (2.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 2.1ms | Allocations: 1907)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-17 15:14:07 -0400
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1907)
+
+
