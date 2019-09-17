@@ -21,8 +21,8 @@ incorrectExp: "Incorrect! Social media is common source of fake news. This news 
   title: "question2",
   image: "https://i.imgur.com/RftSKpm.jpg",
   answer: true,
-  correctExp: "Correct! CBC is a reliable source",
-  incorrectExp: "Incorrect! CBC is a reliable source"
+  correctExp: "Correct! CBC is a reliable source and pineapple pizza is a polarizing issue",
+  incorrectExp: "Incorrect! CBC is a reliable source and pineapple pizza is a polarizing issue"
   },
 {
   title: "question3",
